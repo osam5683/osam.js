@@ -29,7 +29,7 @@ console.log(length)
 // }else{
 //     console.log('not allowed to write the exam')
 // }
-
+// SAME PROGRAM(2)
 var a=30;
 permission=1
 
@@ -55,3 +55,28 @@ if (num>=0){
 if (found==false){
     console.log(`${num}`, "is a prime number")
 }
+
+
+
+
+
+
+// BONUS QUESTIONS 
+// Biggest among three numbers
+var a=3,b=4,c=5
+let largest;
+if(a >= b && a >= c) {
+    largest = a;
+}
+else if (b >= a && b >= c) {
+    largest = b;
+}
+else {
+    largest = c;
+}
+console.log('the largest number is ' + largest)
+
+
+// MULTIPLE TABLES PRINTING
+
+ 
