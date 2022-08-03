@@ -1,82 +1,125 @@
-// Confirm whether given number is a 3 digit number?
-var a='11',a1='111'
-if(a<a1){
-    console.log('given number is a 3 digit number')
-}
-else if(a>a1){
-    console.log('given number is not a 3 digit number')
-}
-
-
-// Confirm whether given number is an 'N' digit number?
-// (Input should not be string)
-var a=1000
-length=(`${a}`.length)
-console.log(length)
-
-
-//  student > 75%
-// if he has more than 75, allow to exam
-// if he doesnt has ask for permission, if yes allow him, if not dont allow him
-
-// var a='60',b='100';
-// permission=false
-// percentage=75
-// if (percentage=a%b*10){
-//     console.log('allow to write exam')
-// }else if (permission==1){
-//     console.log('permission given to write exam')
+// 1. Accept only numbers, Make a number always positive though given negative?
+//  With & without builtin function?
+//  a=0
+//  if(a<0){
+//     a*=1
+//     console.log("it is converted positive")
+// }else if(a>0){
+          
+//           console.log("it is positive")
 // }else{
-//     console.log('not allowed to write the exam')
+//     console.log("it is equal to zero")
 // }
-// SAME PROGRAM(2)
-var a=30;
-permission=1
 
-if (a>=75){
-    console.log('allow to write exam')
-}else if (a<=75 && permission==1 ){
-    console.log('permission given to write exam')
-}else{
-    console.log('not allowed to write the exam')
-}
 
-// Find whether a given number is a prime number or not?
+// -----------------------------------------------------------------------------------------------------
+
+// 2. A shop will give discount of 10% only if you purchase more than 1000 rupees.
+// // Any item costs exactly 100 rupees. inputs = quantity of items.
+// // Result must be Final bill prize
+
+
+// i=40
+// c=100
+// t=i*c
+// if(t>1500){
+//     console.log(d=t*10/100)
+
+//     console.log(t-d)
+// }
+
+// --------------------------------------------------------------------------------------------
+
+// 3.check if its a triangle first and then Check whether a triangle is a scalene/isosceles/equilateral triangle?
+// i) if directly lengths are given,
+// ii) Take coordinates as input.
+
+// var
+// s1=7,
+// s2=9,
+// s3=14;
+// if ((s1+s2>s3)&&(s2+s3>s1)&&(s3+s1>s2)){
+//         console.log("It is a triangle")
+// }
+// if((s1!=0) && (s2!=0) && (s3!=0)){
+//     if((s1==s2)||(s2==s3)){
+//         console.log("it is isoceles triangle")
+
+//     }
+//     else if((s1==s2)&&(s2==s3)&&(s3==s1)){
+//         console.log("it is equilateral triangle")
+//     }else if(s1!=s2!=s3){
+//         console.log("it is a scalene triangle")
+//     }
+// }else{
+//     console.log("it is not a triangle")
+// }
+
+// -------------------------------------------------------------------------------
+
+
+// 4.Build Mini calculator having functionalities - *, /, +, - , %, squareroot, exponentiation, floor, ceil
+
+// a=10,b=13;
+// operator='*'
+// if(operator=='+'){
+// c=a+b
+// console.log(c)
+// }else if(operator=='-'){
+// c=a-b
+// console.log(c)
+// }else if(operator=='*'){
+// c=a*b
+// console.log(c)
+// }else if(operator=='/'){
+//     c=a/b
+//     console.log(c)
+// }else if(operator=='%'){
+// c=a%b
+// console.log(c)
+// }else if(operator=="**"){
+//     c=a**b
+//     console.log(c)
+// }else if(operator=="Math.sqrt"){
+//     c1=Math.sqrt(a)
+//     c2=Math.sqrt(b)
+//     console.log(c1)
+//     console.log(c2)
+
+// }else if(operator=="Math.floor"){
+//     c1=Math.floor(b)
+//     c2=Math.floor(a)
+//     console.log(c1)
+//     console.log(c2)
+
+// }else if(operator=="Math.ceil"){
+//     c1=Math.ceil(a)
+//     c2=Math.ceil(b)
+//     console.log(c1)
+//     console.log(c2)
+    
+// }
+
+
+// --------------------------------------------------------------------------------------------------------
+
+
+
+// 5.roots of quadratic equation, nature of roots
  
-num=3
-let found=false
 
-if (num>=0){
-    console.log(`${num}`,"is not a prime number") }
-    else if(num!=1){
-        console.log(`${num}`, "is neither prime nor composite");{
-    }
-}
-if (found==false){
-    console.log(`${num}`, "is a prime number")
-}
-
-
-
-
-
-
-// BONUS QUESTIONS 
-// Biggest among three numbers
-var a=3,b=4,c=5
-let largest;
-if(a >= b && a >= c) {
-    largest = a;
-}
-else if (b >= a && b >= c) {
-    largest = b;
-}
-else {
-    largest = c;
-}
-console.log('the largest number is ' + largest)
-
-
-// MULTIPLE TABLES PRINTING
-
- 
+// var a=2,b=3,c=4
+//  D=(b*b)-(4*a*c)
+//  if (D>0){
+//     console.log((-b)+Math.sqrt(D)/2*a)
+//     console.log((-b)-Math.sqrt(D)/2*a)
+//     console.log('Roots are real')
+//  }
+//     if (D<0){
+//         console.log((-b)+Math.sqrt(-D)/2*a)
+//         console.log((-b)-Math.sqrt(-D)/2*a)
+//         console.log('Roots are imaginary')
+//     }
+//     else{
+//         ("equal roots")
+//     }

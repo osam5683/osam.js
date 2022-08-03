@@ -83,7 +83,7 @@
 
 
 
-//  a= 5;
+// //  a= 5;
 //     b="";
 // for (let i=1;i<=5;i++) {
 //   // print spaces
@@ -95,15 +95,4 @@
 // console.log(b);
 
 
-a='';
-let spaces = 4;
-for (let i=1;i<=spaces+1;i++){
-    for (let j=spaces;j>=i;j--){
-        a=a+' ';
-    }
-    for(let k=1;k<=i;k++){
-        a=a+'*'
-    }
-    console.log(a);
-    a='';
-}
+  
