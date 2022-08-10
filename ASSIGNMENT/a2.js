@@ -48,19 +48,26 @@
 // // Find whether a given number is a prime number or not?
  
 
-//  var n=7
-//  for (i=2;i<n;i++){
-//     if ((n%i)==0){
-//         console.log('it is a not prime number')
-//         break;
-//     }else {
-//         console.log('it is a prime number')
-//         break;
+// num = 1
+// let factorfound =false;
+// if(num<=0){
+//     console.log(`${num} is not a prime number`)
+// } 
+// else if (num == 1){
+//    console.log(`${num} is neither prime nor composite`)
+// }
+// else {
+//     for (i=2;i<num;i++){
+//         if (num % i===0){
+//             console.log(`${num} is not a prime number`)
+//             factorfound = true;
+//             break;
+//         }
 //     }
-
-//  }
-
-
+// }
+// if(factorfound == false){
+//     console.log(`${num} is a prime number`)
+// }
 
 // ------------------------------------------------------------------------------------------------------------------------
 
