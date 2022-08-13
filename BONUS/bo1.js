@@ -285,11 +285,11 @@
 // // A A A A 
 // // A A A A A
 
-// var a='A'
-// for (let i=1;i<=5;i++){
-//     console.log(a)
-//     a='A '+a
-// }
+var a='A'
+for (let i=1;i<=5;i++){
+    console.log(a)
+    a='A '+a
+}
     
         
     

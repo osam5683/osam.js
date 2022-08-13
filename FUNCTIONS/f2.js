@@ -29,6 +29,8 @@
 // console.log(f(5,6))
 
 
+
+
 // function f(n){
     
 //     if (n==0) return ;
@@ -36,6 +38,7 @@
 //     f(Math.floor(n/2))
 // }
 // f('25')
+
 
 
 // function f(x,y){
@@ -48,12 +51,15 @@
 // }
 // console.log(f2(4,5))
 
+
+
 // function f(n){
 //    if (n==0 || n==1) return n;
 //    if (n%3 !=0) return 0;
 //    return f(n/3)
 // }
 // console.log(f(9))
+
 
 
 // function robot (n,a,b){
@@ -63,6 +69,8 @@
 //     robot(n-1,b,a+n)
 // }
 // robot(2,5,2)
+
+
 
 // function count (n){
 //     var d =1
@@ -75,11 +83,12 @@
 // count (3)
 
 
-function factorial(n){
-    if (n==0) return 1;
-    return n*factorial(n-1)
-}
-console.log(factorial(5))
+
+// function factorial(n){
+//     if (n==0) return 1;
+//     return n*factorial(n-1)
+// }
+// console.log(factorial(5))
  
 
 

@@ -67,12 +67,12 @@
 // THE forEach() METHOD CALLS A FUNCTION (A CALLBACK FUNCTION ONCE FOR EACH)
 // DISCLAIMER:WE CANT REASSIGN THE VALUE IN forEach()
 
- const a=['code','for','india']
- for (i=0;i<a.length;i++){
+//  const a=['code','for','india']
+//  for (i=0;i<a.length;i++){
 
 
- console.log(a[i].toUpperCase())
- }
+//  console.log(a[i].toUpperCase())
+//  }
 
 
 //  MAP
