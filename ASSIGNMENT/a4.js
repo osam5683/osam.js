@@ -52,32 +52,33 @@
 
 // WAP to delete all the positive numbers from the array
  
-// function deletepositive(a){
-//     for(i=0;i<a.length;i++){
-//         if(a[i]>=0){
-//             a.splice(i,3)
-//         }
-//     }
-//     return a
+// let  a= [ -4,-3,-2,-1,0,1,2,3,4]
+// let deletArr= (a)=>{
+// n_array=[]
+//     for(i=0;i<=( a.length);i++){
+//               if((a[i])<0)
+//             {
+//               n_array.push(a[i])
+//             }
+//      }
+//      console.log(n_array)
 // }
-// var a =[-1,8,9,3,-2,-18,0]
-// console.log(deletepositive(a))
+// deletArr(a)
+
     
 
 // ---------------------------------------------------------------------------------------------------------------------------
 
 // WAP to remove duplicates from the given array?
-
-function unique(a){
-    for(i=0;i>a.length;i++){
-        if(a[i]>=0){
-        a.splice(i,3)
-    }                                          // INCOMPLETE
-}
-return a
-}
-let a=[2,21,-5.6,21,89,43,-5,09,2,34,43]
-// let unique = [...new Set(a)]
-console.log(unique(a))
     
-
+// a=[2,2,74,47,87,74,98,37,89,73,-3,4,-3 ]
+// let duplicate= (a)=>{
+//      n_arr=[]
+//     for(i=0;i<=a.length-1;i++){
+//         if( n_arr.indexOf(a[i])=== -1){
+//             n_arr.push(a[i])
+//         }
+//     }
+//     console.log(n_arr)
+// }
+// duplicate(a)
